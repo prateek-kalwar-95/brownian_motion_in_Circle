@@ -83,7 +83,7 @@ p <- ggplot() +
     y = NULL
   )
 
-viz <- list(
+viz <- animint(
   brownian = p,
   time = list(variable = "step", ms = 80)
 )
